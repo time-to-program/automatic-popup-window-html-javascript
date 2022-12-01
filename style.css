@@ -1,0 +1,75 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #FF1744;
+}
+
+.popup-card {
+  width: 22rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  background-color: #ffffff;
+  border-radius: 0.2rem;
+  padding: 2rem 1.5rem;
+  position: relative;
+  transition: all 0.8s ease;
+  transform: translateY(-70vh);
+}
+
+
+.icon {
+  width: 2.8rem;
+  height: 2.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFDDDE;
+  color: #e6153d;
+  border-radius: 50%;
+}
+
+.content > h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #404656;
+}
+
+.content > p {
+  font-size: 0.8rem;
+  font-weight: 500;
+  line-height: 1.2rem;
+  color: #666b78;
+  margin-top: 0.5rem;
+}
+
+button {
+  width: 1.5rem;
+  height: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  background-color: #e6153d;
+  cursor: pointer;
+  border: none;
+  border-radius: 50%;
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+}
+
+.close-icon {
+  font-size: 1rem;
+}
+
